@@ -1,0 +1,47 @@
+.app-landing {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    background: linear-gradient(to bottom right, #0f172a, #1e293b);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .title-section {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  
+  .title-section h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  
+  .title-section p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+  }
+  
+  .button-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  
+  .get-started-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #2563eb;
+  }
+  
