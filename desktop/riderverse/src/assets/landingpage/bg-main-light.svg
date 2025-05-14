@@ -1,0 +1,36 @@
+<svg width="360" height="768" viewBox="0 0 360 768" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_19_28)">
+<rect width="360" height="768" fill="white"/>
+<rect width="360" height="768" fill="#CEFF00"/>
+<g filter="url(#filter0_g_19_28)">
+<path d="M-119 627C-119 621.477 -114.523 617 -109 617H204C209.523 617 214 621.477 214 627V812C214 817.523 209.523 822 204 822H-109C-114.523 822 -119 817.523 -119 812V627Z" fill="#202020"/>
+</g>
+<g filter="url(#filter1_g_19_28)">
+<rect x="277" y="-47" width="91" height="282" rx="10" fill="#202020"/>
+<rect x="277.5" y="-46.5" width="90" height="281" rx="9.5" stroke="black"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_g_19_28" x="-123" y="613" width="341" height="213" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.25 0.25" numOctaves="3" seed="3069" />
+<feDisplacementMap in="shape" scale="8" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_19_28">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+<filter id="filter1_g_19_28" x="273" y="-51" width="99" height="290" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="0.25 0.25" numOctaves="3" seed="7903" />
+<feDisplacementMap in="shape" scale="8" xChannelSelector="R" yChannelSelector="G" result="displacedImage" width="100%" height="100%" />
+<feMerge result="effect1_texture_19_28">
+<feMergeNode in="displacedImage"/>
+</feMerge>
+</filter>
+<clipPath id="clip0_19_28">
+<rect width="360" height="768" fill="white"/>
+</clipPath>
+</defs>
+</svg>

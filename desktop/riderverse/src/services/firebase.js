@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
 // Replace with your actual Firebase config (from Firebase Console > Project Settings)
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: ".firebaseapp.com",
-  projectId: "",
-  storageBucket: ".firebasestorage.app",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "APIKEY",
+  authDomain: "dsfsd.firebaseapp.com",
+  projectId: "sdfdsfd",
+  storageBucket: "dsfsdf.firebasestorage.app",
+  messagingSenderId: "dsfdsfds",
+  appId: "sdfdsfsdfdsf"
 };
 
 const app = initializeApp(firebaseConfig);
