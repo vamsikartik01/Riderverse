@@ -8,11 +8,13 @@ phases:
       - echo "Installing dependencies..."
       - cd desktop/riderverse
       - npm install
+
   build:
     commands:
       - echo "Running build..."
       - npm run build
+
 artifacts:
+  base-directory: desktop/riderverse/dist  
   files:
     - '**/*'
-  base-directory: desktop/riderverse/build
