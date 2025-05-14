@@ -9,7 +9,6 @@ phases:
       - npm install
   build:
     commands:
-      - cd desktop/riderverse
       - npm run build
 artifacts:
   files:
