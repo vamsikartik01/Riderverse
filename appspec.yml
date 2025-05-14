@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/riderverse
+    overwrite: yes
+
+hooks:
+  AfterInstall:
+    - location: scripts/post_install.sh
+      timeout: 60
+      runas: ec2-user
