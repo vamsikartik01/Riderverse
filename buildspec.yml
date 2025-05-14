@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - cd desktop/riderverse
+      - npm install
+  build:
+    commands:
+      - cd desktop/riderverse
+      - npm run build
+artifacts:
+  files:
+    - '**/*'
+  base-directory: desktop/riderverse/build
