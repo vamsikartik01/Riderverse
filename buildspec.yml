@@ -13,4 +13,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: desktop/riderverse/build
+  base-directory: build
