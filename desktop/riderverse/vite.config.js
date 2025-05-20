@@ -13,6 +13,7 @@ export default defineConfig({
         short_name: 'Riderverse',
         description: 'Ride. Share. Level Up.',
         theme_color: '#202020',
+        background_color: '#202020',
         icons: [
           {
             src: 'logo.svg',
