@@ -12,20 +12,20 @@ export default defineConfig({
         name: 'Riderverse',
         short_name: 'Riderverse',
         description: 'Ride. Share. Level Up.',
-        theme_color: '#111827',
+        theme_color: '#202020',
         icons: [
           {
-            src: 'vite.svg',
+            src: 'logo.svg',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'vite.svg',
+            src: 'logo.svg',
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: 'vite.svg',
+            src: 'logo.svg',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable'
